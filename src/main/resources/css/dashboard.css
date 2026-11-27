@@ -1,0 +1,124 @@
+.kpi-value {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+}
+
+.kpi-label {
+    -fx-text-fill: #8DA2C8;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.badge-info {
+    -fx-background-color: rgba(49, 139, 255, 0.22);
+    -fx-text-fill: #6FB1FF;
+    -fx-background-radius: 6;
+    -fx-padding: 3 8 3 8;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.badge-success {
+    -fx-background-color: rgba(53, 217, 138, 0.2);
+    -fx-text-fill: #35D98A;
+    -fx-background-radius: 6;
+    -fx-padding: 3 8 3 8;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.badge-warning {
+    -fx-background-color: rgba(255, 181, 71, 0.22);
+    -fx-text-fill: #FFB547;
+    -fx-background-radius: 6;
+    -fx-padding: 3 8 3 8;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.badge-error {
+    -fx-background-color: rgba(255, 83, 100, 0.22);
+    -fx-text-fill: #FF5364;
+    -fx-background-radius: 6;
+    -fx-padding: 3 8 3 8;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.progress-bar > .track {
+    -fx-background-color: #0E172E;
+    -fx-background-radius: 6;
+}
+.progress-bar > .bar {
+    -fx-background-color: #318BFF;
+    -fx-background-radius: 6;
+}
+
+.table-view {
+    -fx-background-color: #111B33;
+    -fx-border-color: #253963;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.table-view .column-header-background {
+    -fx-background-color: #172440;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: #253963;
+    -fx-border-width: 0 0 1 0;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #A7BBE0;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+.table-row-cell {
+    -fx-background-color: #111B33;
+    -fx-text-fill: #F4F7FF;
+    -fx-border-color: #1A2949;
+    -fx-border-width: 0 0 1 0;
+}
+.table-row-cell:odd {
+    -fx-background-color: #14203C;
+}
+.table-row-cell:selected {
+    -fx-background-color: rgba(49, 139, 255, 0.25);
+}
+.table-cell {
+    -fx-text-fill: #E6EEFF;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.chart {
+    -fx-background-color: transparent;
+    -fx-padding: 6;
+}
+.chart-plot-background {
+    -fx-background-color: #0E172E;
+}
+.chart-title {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+.axis {
+    -fx-tick-label-fill: #98ACC9;
+}
+.axis-label {
+    -fx-text-fill: #98ACC9;
+}
+.chart-vertical-grid-lines, .chart-horizontal-grid-lines {
+    -fx-stroke: #1F3056;
+}
+.chart-legend {
+    -fx-background-color: transparent;
+}
+.chart-legend-item {
+    -fx-text-fill: #DCE6FA;
+}
+.chart-pie-label {
+    -fx-fill: #DCE6FA;
+    -fx-font-size: 11px;
+}
